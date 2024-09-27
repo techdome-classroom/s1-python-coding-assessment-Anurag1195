@@ -9,7 +9,6 @@ class Solution:
             if j == len(key):
                 return False
             
-            # If this state has been computed before, return it from the memo
             if (i, j) in memo:
                 return memo[(i, j)]
             
