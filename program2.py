@@ -23,9 +23,7 @@ class Solution:
                     memo[(i, j)] = True
                     return True
             
-            # If no match, store False in the memo
             memo[(i, j)] = False
             return False
         
-        # Start matching from the beginning of both the message and the key
         return match(0, 0)
