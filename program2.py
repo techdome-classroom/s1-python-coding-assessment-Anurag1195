@@ -1,5 +1,4 @@
-class Solution:
-    def isMatch(self, message: str, key: str) -> bool:
+def isMatch(self, message: str, key: str) -> bool:
         memo = {}
         
         def match(i, j):
