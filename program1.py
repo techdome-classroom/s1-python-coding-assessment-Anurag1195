@@ -7,5 +7,5 @@ class Solution:
         
         rows = len(grid)
         cols = len(grid[0])
-        visited = [False]           
+        visited = [[False for _ ]]           
         return 0
