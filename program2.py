@@ -5,7 +5,7 @@ class Solution:
         def match(i, j):
             if i == len(message) and j == len(key):
                 return True
-            # If we've reached the end of the key but not the message, or vice versa, it's not a match
+           
             if j == len(key):
                 return False
             
