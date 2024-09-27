@@ -17,7 +17,7 @@ class Solution:
                     memo[(i, j)] = True
                     return True
             
-            # Handle the case where the current key character is `?`
+           
             if i < len(message) and j < len(key) and (key[j] == '?' or key[j] == message[i]):
                 if match(i + 1, j + 1):
                     memo[(i, j)] = True
