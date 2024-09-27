@@ -2,6 +2,6 @@ def decode_message( s: str, p: str) -> bool:
         memo = {}
 
         def match(i , j):
-                if i == len(message) 
+                if i == len(message) and 
   
         return False
