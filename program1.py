@@ -25,5 +25,6 @@ class Solution:
         island_count = 0
 
         for r in range (rows):
-            for c in range             
+            for c in range (cols):
+                            
         return 0
