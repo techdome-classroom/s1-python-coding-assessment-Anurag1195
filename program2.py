@@ -12,7 +12,6 @@ class Solution:
             if (i, j) in memo:
                 return memo[(i, j)]
             
-            # Handle the case where the current key character is `*`
             if j < len(key) and key[j] == '*':
                 # Try two possibilities:
                 # 1. `*` matches zero characters (move to the next key character)
