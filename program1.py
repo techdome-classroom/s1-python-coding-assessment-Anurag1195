@@ -21,6 +21,8 @@ class Solution:
             dfs(r-1 , c)
             dfs(r , c+1)
             dfs(r , c-1)
-            
-                        
+
+        island_count = 0
+
+        for            
         return 0
