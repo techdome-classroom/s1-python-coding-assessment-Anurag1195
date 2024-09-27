@@ -26,5 +26,5 @@ class Solution:
 
         for r in range (rows):
             for c in range (cols):
-                            
+                if(grid[])            
         return 0
