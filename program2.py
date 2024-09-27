@@ -1,4 +1,4 @@
-def isMatch(self, message: str, key: str) -> bool:
+def decode_message(self, message: str, key: str) -> bool:
         memo = {}
         
         def match(i, j):
