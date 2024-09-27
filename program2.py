@@ -13,9 +13,6 @@ class Solution:
                 return memo[(i, j)]
             
             if j < len(key) and key[j] == '*':
-                # Try two possibilities:
-                # 1. `*` matches zero characters (move to the next key character)
-                # 2. `*` matches at least one character (move to the next message character)
                 if match(i, j + 1) or (i < len(message) and match(i + 1, j)):
                     memo[(i, j)] = True
                     return True
