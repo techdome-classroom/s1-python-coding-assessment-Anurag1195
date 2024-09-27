@@ -7,7 +7,6 @@ def decode_message(s: str, p: str) -> bool:
         if j == len(p):
             return False
         
-        # If this state has been computed before, return it from the memo
         if (i, j) in memo:
             return memo[(i, j)]
         
