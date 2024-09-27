@@ -18,5 +18,7 @@ class Solution:
             visited[r][c] = True
 
             dfs(r+1 , c) 
-            dfs(r-1 , )            
+            dfs(r-1 , c)
+            dfs(r , c+1)
+            dfs()            
         return 0
