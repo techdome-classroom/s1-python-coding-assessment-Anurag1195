@@ -7,6 +7,6 @@ class Solution:
         
         rows = len(grid)
         cols = len(grid[0])
-        visited = []
+        visited = [False For _ in range (cols)]
                     
         return 0
