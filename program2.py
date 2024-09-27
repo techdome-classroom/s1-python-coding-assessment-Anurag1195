@@ -4,7 +4,6 @@ def decode_message(s: str, p: str) -> bool:
     def match(i, j):
         if i == len(s) and j == len(p):
             return True
-        # If we've reached the end of the key but not the message, or vice versa, it's not a match
         if j == len(p):
             return False
         
