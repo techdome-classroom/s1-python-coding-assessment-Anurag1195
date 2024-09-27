@@ -3,7 +3,6 @@ class Solution:
         memo = {}
         
         def match(i, j):
-            # If we've reached the end of both the message and the key, it's a match
             if i == len(message) and j == len(key):
                 return True
             # If we've reached the end of the key but not the message, or vice versa, it's not a match
