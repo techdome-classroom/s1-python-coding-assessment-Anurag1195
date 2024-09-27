@@ -26,5 +26,5 @@ class Solution:
 
         for r in range (rows):
             for c in range (cols):
-                if grid[r][c] == 'L' and not visited[r]             
+                if grid[r][c] == 'L' and not visited[r][c]             
         return 0
