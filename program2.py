@@ -1,6 +1,5 @@
 class Solution:
     def isMatch(self, message: str, key: str) -> bool:
-        # Cache results for memoization
         memo = {}
         
         def match(i, j):
