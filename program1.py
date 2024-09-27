@@ -15,5 +15,5 @@ class Solution:
             if visited[r][c] or grid[r][c] == 'W':
                 return
 
-            visited[r][c] = true            
+            visited[r][c] =             
         return 0
