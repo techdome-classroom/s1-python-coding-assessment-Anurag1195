@@ -15,5 +15,8 @@ class Solution:
             if visited[r][c] or grid[r][c] == 'W':
                 return
 
-            visited[r][c] =             
+            visited[r][c] = True
+
+            dfs(r+1 , c) 
+            dfs(r-1 , )            
         return 0
