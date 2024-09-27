@@ -26,5 +26,5 @@ class Solution:
 
         for r in range (rows):
             for c in range (cols):
-                if(grid[])            
+                if(grid[r][])            
         return 0
