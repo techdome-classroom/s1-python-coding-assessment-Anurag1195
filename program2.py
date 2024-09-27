@@ -1,5 +1,4 @@
 def decode_message(s: str, p: str) -> bool:
-    # Cache results for memoization
     memo = {}
 
     def match(i, j):
