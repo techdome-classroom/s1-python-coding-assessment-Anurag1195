@@ -12,5 +12,5 @@ class Solution:
         def dfs(r , c):
             if r < 0 or r >= rows or c < 0 or c >= cols:
                 return 
-            if             
+            if visited[r][c] or grid[r][c]            
         return 0
