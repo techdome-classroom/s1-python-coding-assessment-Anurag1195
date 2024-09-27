@@ -7,6 +7,6 @@ class Solution:
         
         rows = len(grid)
         cols = len(grid[0])
-        visited = 
+        visited = []
                     
         return 0
