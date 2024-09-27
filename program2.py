@@ -10,7 +10,6 @@ def decode_message(s: str, p: str) -> bool:
         if (i, j) in memo:
             return memo[(i, j)]
         
-        # Handle the case where the current key character is `*`
         if j < len(p) and p[j] == '*':
             # Try two possibilities:
             # 1. `*` matches zero characters (move to the next key character)
