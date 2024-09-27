@@ -15,13 +15,11 @@ def decode_message(s: str, p: str) -> bool:
                 memo[(i, j)] = True
                 return True
         
-        # Handle the case where the current key character is `?`
         if i < len(s) and j < len(p) and (p[j] == '?' or p[j] == s[i]):
             if match(i + 1, j + 1):
                 memo[(i, j)] = True
                 return True
         
-        # If no match, store False in the memo
         memo[(i, j)] = False
         return False
 
