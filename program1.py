@@ -24,5 +24,5 @@ class Solution:
 
         island_count = 0
 
-        for            
+        for r in            
         return 0
