@@ -10,5 +10,5 @@ class Solution:
         visited = [[False for _ in range(cols)] for _ in range (rows)]
 
         def dfs(r , c):
-            if r < 0             
+            if r < 0 or r >= rows or c < 0             
         return 0
